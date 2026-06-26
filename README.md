@@ -1,7 +1,7 @@
-## Robot Package Template
-
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
-
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_bot` to whatever your project's name is.
-
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+## My Robot - ROS2 Learning Project
+This is my personal ROS2 robot package, built while following the Articulated Robotics tutorial series.
+The original template was created by Articulated Robotics. I'm using it as the base for my own robot project, modifying and extending it as I work through the tutorials.
+## What's in here
+This package contains the URDF/xacro robot description, Gazebo simulation setup, RViz configs, and launch files for my differential drive robot.
+# Following along?
+Check out the original tutorial series at [articulated robotics](https://www.youtube.com/@ArticulatedRobotics) youtube if you want to build your own.
